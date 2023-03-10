@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 14
       - name: build site
-        run:  |
+        run: |
           npm ci
           npm run build
       - name: deploy files into bucket
